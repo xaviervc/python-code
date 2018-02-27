@@ -1,13 +1,8 @@
+import sys
+import random
 
+def dirtFunc():
+    this = "This is a string"
+    return this
 
-
-this_string = "string but"
-
-number = 5
-
-numba = 2
-
-
-
-
-print(number**numba)
+print(dirtFunc())
